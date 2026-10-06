@@ -3,7 +3,7 @@ A virtual lab for practicing attack simulations and log analysis.
 
 ## Network Diagram
 
-<img width="656" height="572" alt="home_lab_diagram" src="https://github.com/user-attachments/assets/3beafaa2-70b7-4e8b-affc-a7c2747c92ac" />
+home_lab_setup.drawio
 
 ## Lab Environment
 
