@@ -3,7 +3,8 @@ A virtual lab for practicing attack simulations and log analysis.
 
 ## Network Diagram
 
-<img width="637" height="582" alt="home_lab_diagram" src="https://github.com/user-attachments/assets/ff024938-5f02-4df5-b667-1de88c56cb68" />
+<img width="713" height="591" alt="home_lab_diagram" src="https://github.com/user-attachments/assets/af455afa-042d-4ac1-8381-e2a00e5e0e92" />
+
 
 
 ## Lab Environment
@@ -14,7 +15,7 @@ A virtual lab for practicing attack simulations and log analysis.
 
   Host Name   | OS           | Role     | IP       |
   
-  Kali,         Kali Linux,      Attacker,   10.0.2.2
+  Kali,         Kali Linux,      Attacker,   10.0.2.5
 
   ubuntu-srvr,  Ubuntu Server,   Target,      10.0.2.3
 
