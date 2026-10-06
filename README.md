@@ -22,6 +22,38 @@ A virtual lab for practicing attack simulations and log analysis.
 
   ## Setup Notes
 
+ ## 1. Virutal Network
+
+ 
+Created a NAT Network in VirtualBox so the VMs can reach each other and download upadtes
+
+- File -> Tools -> Network Manager -> NAT Networks -> Create
+  
+- Name: Labnet, IPv4 prefix: 10.0.2.0/24, DHCP enabled
+
+- Each VM: Settings -> Network -> Adapter 1 -> Nat Network -> LabNet
+
+## 2. Kali Linux (attacker)
+
+- Installed ISO file from kali.org
+
+- Machine -> Add -> selected the ISO file
+
+- Do the installation process
+
+## 3. Ubuntu Server (target)
+
+- Installed OpenSSH so Kali can connect
+
+- Confirmed the IP with ip a
+
+## 4. Windows (target / endpoint)
+
+- Confirmed IP with ipconfig
+
+## 5. Connectivity Test
+
+- Pinged between every pair of VMs to confirm the network works
   ## Troubleshooting
 
   ## Exercises
