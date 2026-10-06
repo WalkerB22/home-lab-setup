@@ -13,11 +13,11 @@ A virtual lab for practicing attack simulations and log analysis.
 
   Host Name   | OS           | Role     | IP       |
   
-  Kali         Kali Linux      Attacker   10.0.2.2
+  Kali,         Kali Linux,      Attacker,   10.0.2.2
 
-  ubuntu-srvr  Ubuntu Server   Target      10.0.2.3
+  ubuntu-srvr,  Ubuntu Server,   Target,      10.0.2.3
 
-  win-client   Windows 10      Target      10.0.2.4
+  win-client,   Windows 10,      Target,      10.0.2.4
 
   ## Setup Notes
 
