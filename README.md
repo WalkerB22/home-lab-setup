@@ -12,6 +12,7 @@ A virtual lab for practicing attack simulations and log analysis.
 - Network: Nat Network, 10.0.2.0/24
 
   Host Name   | OS           | Role     | IP       |
+  
   Kali         Kali Linux      Attacker   10.0.2.2
 
   ubuntu-srvr  Ubuntu Server   Target      10.0.2.3
