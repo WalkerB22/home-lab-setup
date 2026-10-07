@@ -16,12 +16,12 @@ A virtual lab for practicing attack simulations and log analysis.
 | Hostname   | OS            | Role     | IP       |
 |------------|---------------|----------|----------|
 | kali       | Kali Linux    | Attacker | 10.0.2.5 |
-| wbserver   | Ubuntu Server | Target   | 10.0.2.3 |
+| ubuntu-srvr   | Ubuntu Server | Target   | 10.0.2.3 |
 | win-client | Windows 10    | Target   | 10.0.2.6 |
 
-  ## Setup Notes
+## Setup Notes
 
- ### 1. Virtual Network
+### 1. Virtual Network
 
  
 Created a NAT Network in VirtualBox so the VMs can reach each other and download updates
@@ -56,9 +56,9 @@ Created a NAT Network in VirtualBox so the VMs can reach each other and download
 
   <img width="663" height="531" alt="image" src="https://github.com/user-attachments/assets/52ee2619-ae87-46f5-a659-b7a7a092528d" />
 
-  ## Troubleshooting
+## Troubleshooting
 
-  ### 1. All VMs showed as inaccessible
+### 1. All VMs showed as inaccessible
 
 - Problem: Every VM failed to load with error code D:\tinderboxa\win-7.2\src\VBox\Main\src-server\MachineImpl.cpp[999] (long __cdecl Machine::i_registeredInit(void)).
 
@@ -73,4 +73,4 @@ Created a NAT Network in VirtualBox so the VMs can reach each other and download
 
 - Fix: Moved the adapter onto the same network as the other VMs and added an inbound firewall rule allowing ICMPv4 echo requests. Screenshot of pings above prove that it works now
 
-  ## Exercises
+## Exercises
