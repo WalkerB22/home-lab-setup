@@ -12,8 +12,8 @@ A virtual lab for practicing attack simulations and log analysis.
 - Hypervisor: VirtualBox on Windows
   
 - Network: Nat Network, 10.0.2.0/24
-
-  | Hostname   | OS            | Role     | IP       |
+  
+| Hostname   | OS            | Role     | IP       |
 |------------|---------------|----------|----------|
 | kali       | Kali Linux    | Attacker | 10.0.2.5 |
 | wbserver   | Ubuntu Server | Target   | 10.0.2.3 |
